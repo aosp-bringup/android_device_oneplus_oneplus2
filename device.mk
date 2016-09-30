@@ -144,8 +144,8 @@ PRODUCT_PACKAGES += \
     fs_config_files
 
 # Gello
-PRODUCT_PACKAGES += \
-    Gello
+#PRODUCT_PACKAGES += \
+ #   Gello
 
 # GPS
 PRODUCT_PACKAGES += \
@@ -181,8 +181,8 @@ PRODUCT_PACKAGES += \
     lights.msm8994
 
 # LiveDisplay native
-PRODUCT_PACKAGES += \
-    libjni_livedisplay
+#PRODUCT_PACKAGES += \
+#    libjni_livedisplay
 
 # Media
 PRODUCT_COPY_FILES += \
@@ -283,4 +283,4 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/WCNSS_qcom_cfg.ini:system/etc/wifi/WCNSS_qcom_cfg.ini
 
 # Inherit from oppo-common
-$(call inherit-product, device/oppo/common/common.mk)
+#$(call inherit-product, device/oppo/common/common.mk)
