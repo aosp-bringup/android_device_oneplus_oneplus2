@@ -34,11 +34,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.android.dataroaming=false \
     ro.build.selinux=1
 
-ifneq ($(TARGET_BUILD_VARIANT),eng)
-# Enable ADB authentication
-ADDITIONAL_DEFAULT_PROPERTIES += ro.adb.secure=0
-endif
-
 # Set parameters
 PRODUCT_DEVICE := oneplus2
 PRODUCT_NAME := aosp_oneplus2
